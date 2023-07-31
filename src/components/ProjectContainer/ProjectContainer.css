@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Montserrat:wght@300&display=swap');
+
+.ProjectContainer {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    padding: 90px 0;
+    align-items: center;
+    color: white;
+  
+}
+.ProjectContainer > h1 {
+    padding-bottom: 15px;
+
+}
+.ProjectContainer > p{
+    padding-bottom: 20px;
+}
+.ProjectContainer__projects {
+    display: flex;
+    width:42vw;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
